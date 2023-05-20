@@ -1,0 +1,108 @@
+@import url(reaset.css);
+@import url(global.css);
+
+.desktopBack {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    z-index: -1
+}
+
+.product {
+    text-align: center;
+    background: white;
+    border-radius: 20px;
+    max-width: 450px;
+    height: 697px;
+    box-shadow: 0 40px 40px -20px rgba(56, 41, 224, 15%);
+    margin: 102px auto;
+}
+
+.heroIllustration {
+    max-width: 100%;
+    border-radius: 20px 20px 0 0;
+    display: block;
+}
+
+.infoCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 32px 48px;
+}
+
+.title {
+    font-size: 28px;
+    font-weight: 900;
+    color: var(--dark-blue);
+    margin: 13px;
+}
+
+.discription {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    color: var(--desaturated-blue);
+    margin: 4px;
+}
+
+.payBox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: var(--very-pale-blue);
+    border-radius: 12px;
+    padding: 24px;
+    margin: 16px 0;
+}
+
+.payBox a {
+    text-decoration: underline;
+    font-weight: 700;
+    font-size: 14px;
+    color: var(--bright-blue);
+}
+
+.plan {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.planInfo {
+    text-align: left;
+}
+
+.planInfo h4 {
+    margin: 0;
+    letter-spacing: 0.3px;
+    font-weight: 700;
+    color: var(--dark-blue);
+}
+
+.planInfo p {
+    margin: 6px 0 0;
+    font-weight: 500;
+    letter-spacing: 0.3px;
+    color: var(--desaturated-blue);
+}
+
+.button {
+    background: var(--bright-blue);
+    color: white;
+    font-size: 15px;
+    padding: 15px 48px;
+    border-radius: 10px;
+    margin: 17px 0;
+    letter-spacing: 0.3px;
+    font-weight: 700;
+    box-shadow: 0 20px 20px 0 rgba(56, 41, 224, 20%);
+}
+
+.cancel {
+    font-weight: 900;
+    color: var(--desaturated-blue);
+    font-size: 15px;
+    margin: 15px 0;
+    letter-spacing: 0.3px;
+}
