@@ -2,14 +2,9 @@
 @import url(global.css);
 
 body {
-    position: relative;
-}
-
-.desktopBack {
-    width: 100%;
-    position: absolute;
-    top: 0;
-    z-index: -1
+    background-image: url(/assets/images/pattern-background-desktop.svg);
+    background-position: top;
+    background-repeat: no-repeat;
 }
 
 .product {
@@ -17,7 +12,7 @@ body {
     background: white;
     border-radius: 20px;
     max-width: 450px;
-    height: 697px;
+    height: 700px;
     box-shadow: 0 40px 40px -20px rgba(56, 41, 224, 15%);
     margin: 102px auto;
 }
@@ -132,8 +127,8 @@ body {
 
 @media screen and (max-width:500px) {
 
-    .desktopBack {
-        display: none;
+    body {
+        background-image: url(/assets/images/pattern-background-mobile.svg);
     }
 
     .product {
