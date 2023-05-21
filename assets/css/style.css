@@ -1,6 +1,10 @@
 @import url(reaset.css);
 @import url(global.css);
 
+body {
+    position: relative;
+}
+
 .desktopBack {
     width: 100%;
     position: absolute;
@@ -43,7 +47,7 @@
     font-weight: 500;
     line-height: 26px;
     color: var(--desaturated-blue);
-    margin: 4px;
+    margin: 4px 0;
 }
 
 .payBox {
@@ -61,6 +65,11 @@
     font-weight: 700;
     font-size: 14px;
     color: var(--bright-blue);
+    cursor: pointer;
+}
+
+.payBox a:hover {
+    opacity: 0.7;
 }
 
 .plan {
@@ -97,6 +106,11 @@
     letter-spacing: 0.3px;
     font-weight: 700;
     box-shadow: 0 20px 20px 0 rgba(56, 41, 224, 20%);
+    cursor: pointer;
+}
+
+.button:hover {
+    opacity: 0.7;
 }
 
 .cancel {
@@ -105,4 +119,30 @@
     font-size: 15px;
     margin: 15px 0;
     letter-spacing: 0.3px;
+    cursor: pointer;
+}
+
+.cancel:hover {
+    color: var(--dark-blue);
+}
+
+.attribution {
+    text-align: center;
+}
+
+@media screen and (max-width:500px) {
+
+    .desktopBack {
+        display: none;
+    }
+
+    .product {
+        max-width: 327px;
+        height: auto;
+        margin: 70px auto;
+    }
+
+    .infoCard {
+        padding: 24px;
+    }
 }
