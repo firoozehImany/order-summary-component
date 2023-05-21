@@ -28,8 +28,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/order-summary-component-html-css-dLMU-29lOs)
-- Live Site URL: [Add live site URL here](https://order-summary-component-alpha-kohl.vercel.app/)
+- Solution URL: [Frontend Mentor Solution](https://www.frontendmentor.io/solutions/order-summary-component-html-css-dLMU-29lOs)
+- Live Site URL: [Live Site at Vercel](https://order-summary-component-alpha-kohl.vercel.app/)
 
 ## My process
 

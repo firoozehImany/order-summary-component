@@ -80,6 +80,7 @@ body {
 .planInfo h2 {
     margin: 0;
     letter-spacing: 0.3px;
+    font-size: 16px;
     font-weight: 700;
     color: var(--dark-blue);
 }
