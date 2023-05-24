@@ -8,10 +8,7 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
   - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
   - [Links](#links)
-- [My process](#my-process)
   - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
 
 ## Overview
@@ -31,8 +28,6 @@ Users should be able to:
 - Solution URL: [Frontend Mentor Solution](https://www.frontendmentor.io/solutions/order-summary-component-html-css-dLMU-29lOs)
 - Live Site URL: [Live Site at Vercel](https://order-summary-component-alpha-kohl.vercel.app/)
 
-## My process
-
 ### Built with
 
 - Semantic HTML5 markup
@@ -42,7 +37,6 @@ Users should be able to:
 
 ## Author
 
-- GitHub - [firoozeh Imany](https://github.com/firoozehImany)
-- Frontend Mentor - [@firoozehimany](https://www.frontendmentor.io/profile/firoozehImany)
-- Twitter - [@firoozehimany](https://www.twitter.com/firoozehImany)
-
+- GitHub - [firoozehImany](https://github.com/firoozehImany)
+- Frontend Mentor - [firoozehImany](https://www.frontendmentor.io/profile/firoozehImany)
+- Twitter - [firoozehImany](https://www.twitter.com/firoozehImany)
